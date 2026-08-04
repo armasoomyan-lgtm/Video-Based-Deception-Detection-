@@ -23,15 +23,15 @@ The implementation consists of the following stages:
 ________________________________________
 # Training MHEmodel: Parts & Stages of project_Code:
 
- 1-Extract Face from 121 video dataset
- 2-Extracting packking = 15 Of all_video_np,Emotion_label_np,micro_exp_labels
- 3-Extracting homograph_label_H1_np , homograph_label_mesh_np
- 4- defining  model 
- 5-loading inputs && outputs
- 6-Pre_Testing model
- 7-define epochs ,batch_size ,train_in_data train_out_data val_in_data val_out_data
- 8-Training MHEmodel
- 9-Logging
+ 1. Extract Face from 121 video dataset
+ 2. Extracting packking = 15 Of all_video_np,Emotion_label_np,micro_exp_labels
+ 3. Extracting homograph_label_H1_np , homograph_label_mesh_np
+ 4.  defining  model 
+ 5. loading inputs && outputs
+ 6. Pre_Testing model
+ 7. define epochs ,batch_size ,train_in_data train_out_data val_in_data val_out_data
+ 8. Training MHEmodel
+ 9. Logging
 
 Fig1 , showes training diagram.
 
