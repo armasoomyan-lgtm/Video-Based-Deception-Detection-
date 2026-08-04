@@ -27,8 +27,8 @@ Figure 1 shows the training and validation loss curve for the proposed architect
 ________________________________________
 # Python Codes files for the proposed architecture:
 
-1.	Hybrid_ME_EmotionACC.py  (Training Hybrid Emodel Code:)
-2.	Test_Hybrid_ME_EmotionACC.py  (Testing & Evaluating Hybrid Emodel code:)
+1.	Hybrid_ME_EmotionACC.py  (Training Hybrid model Code:)
+2.	Test_Hybrid_ME_EmotionACC.py  (Testing & Evaluating Hybrid model code:)
    
 The performance of the proposed hybrid model for deception detection was evaluated using the RLT dataset. We assessed the performance of the proposed hybrid model at two evaluation levels: (1) the GOP level, in which performance metrics are calculated using 15-frame GOPs, and (2) the video level, in which performance metrics are measured for complete test videos. 
 
