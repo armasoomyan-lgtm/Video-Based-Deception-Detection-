@@ -14,12 +14,12 @@ The implementation consists of the following stages:
 1.	Extract facial regions from the 121 videos in the RLT dataset. 
 2.	Generate 15-frame Groups of Pictures (GOPs). 
 3.	Extract and save: 
-    o	Video frame sequences 
-    o	Emotion labels 
-    o	Micro-expression labels 
+o	Video frame sequences 
+o	Emotion labels 
+o	Micro-expression labels 
 4.	Generate homography-based feature labels. 
-5.	Build the proposed HME model.
-6.	Load training and testing data. 
+5.	Build the proposed HME model. 
+6.	Load training and testing data
 7.	Perform model verification before training. 
 8.	Configure the training parameters (epochs, batch size, training and validation sets). 
 9.	Train the proposed HME model. 
