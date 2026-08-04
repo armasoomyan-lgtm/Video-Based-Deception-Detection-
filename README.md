@@ -28,9 +28,9 @@ The implementation consists of the following stages:
 Figure 1 shows the training and validation loss curve for the proposed architecture.
 
 ________________________________________
-# Python Code files for the proposed architecture:
-# 1-	Hybrid_ME_EmotionACC.py
-Training MHEmodel: Parts & Stages of project_Code:
+# Python Codes files for the proposed architecture:
+1-	Hybrid_ME_EmotionACC.py
+Training Hybrid Emodel: Parts & Stages of Code:
   o	Extract Face from 121 video dataset
   o	Extracting packking = 15 Of all_video_np,Emotion_label_np,micro_exp_labels
   o	Extracting homograph_label_H1_np , homograph_label_mesh_np
@@ -41,8 +41,8 @@ Training MHEmodel: Parts & Stages of project_Code:
   o	Training MHEmodel
   o	Logging
 
-# 2-	Test_Hybrid_ME_EmotionACC.py
-Testing & Evaluating MHEmodel:
+2-	Test_Hybrid_ME_EmotionACC.py
+Testing & Evaluating Hybrid Emodel code:
 The performance of the proposed hybrid model for deception detection was evaluated using the RLT dataset. We assessed the performance of the proposed hybrid model at two evaluation levels: (1) the GOP level, in which performance metrics are calculated using 15-frame GOPs, and (2) the video level, in which performance metrics are measured for complete test videos. 
 
 The accuracy and AUC of the proposed hybrid architecture in GOP and video level:
