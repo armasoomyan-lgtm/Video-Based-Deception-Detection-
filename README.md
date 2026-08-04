@@ -32,13 +32,13 @@ ________________________________________
 
 1.	Hybrid_ME_EmotionACC.py  (Training Hybrid Emodel Code:)
    
-  •	Extract Faces from 121 video dataset
-  •	Extracting packking = 15 Of all_video_np,Emotion_label_np,micro_exp_labels
+  •	Extract Faces from 121 videos dataset
+  •	Extracting packking = 15 Of (all_video_np,Emotion_label_np,micro_exp_labels)
   •	Extracting homograph_label_H1_np , homograph_label_mesh_np
   •	defining  model 
   •	loading inputs && outputs
   •	Pre_Testing model
-  •	define epochs ,batch_size ,train_in_data train_out_data val_in_data val_out_data
+  •	define (epochs ,batch_size ,train_in_data train_out_data val_in_data val_out_data)
   •	Training HMEmodel
   •	Logging
 
