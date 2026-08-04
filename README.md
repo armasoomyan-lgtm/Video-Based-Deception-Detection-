@@ -48,8 +48,7 @@ The performance of the proposed hybrid model for deception detection was evaluat
 
 The accuracy and AUC of the proposed hybrid architecture in GOP and video level:
 
-  	Accuracy (%) --->	GOP=91.66	  Video=100
+•	Accuracy (%) --->	GOP=91.66	  Video=100
 
-  	AUC          ---> GOP=0.963   Video=1.0
-
+•	AUC          ---> GOP=0.963   Video=1.0
 ________________________________________
