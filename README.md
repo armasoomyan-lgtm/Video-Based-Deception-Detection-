@@ -18,9 +18,19 @@ The implementation consists of the following stages:
   o	Emotion labels 
   o	Micro-expression labels 
 4.	Generate homography-based feature labels. 
-5.	Build the proposed MHE model. 
+5.	Build the proposed MHE model.
+6.	6.	Load training and testing data. 
+7.	Perform model verification before training. 
+8.	Configure the training parameters (epochs, batch size, training and validation sets). 
+9.	Train the proposed MHE model. 
+10.	Save model checkpoints and training logs.
+    
+Figure 1 shows the training and validation loss curve for the proposed architecture.
 
 ________________________________________
+# Python Code files for the proposed architecture:
+1-	ME_EmotionACC.py
+  Description….
 # Training MHEmodel: Parts & Stages of project_Code:
 
  1. Extract Face from 121 video dataset
@@ -32,10 +42,11 @@ ________________________________________
  7. define epochs ,batch_size ,train_in_data train_out_data val_in_data val_out_data
  8. Training MHEmodel
  9. Logging
+ 10. 
 
 Fig1 , showes training diagram.
 
-________________________________________
+2-	bb
 # Testing & Evaluating MHEmodel:
 
 The performance of the proposed hybrid model for deception detection was evaluated using the RLT dataset. We assessed the performance of the proposed hybrid model at two evaluation levels: (1) the GOP level, in which performance metrics are calculated using 15-frame GOPs, and (2) the video level, in which performance metrics are measured for complete test videos. 
@@ -45,3 +56,4 @@ The accuracy and AUC of the proposed hybrid architecture in GOP and video level:
 Accuracy (%) --->	GOP	91.66	  Video	100
 
 AUC          ---> GOP	0.963   Video	 1.0
+________________________________________
