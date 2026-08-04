@@ -13,8 +13,7 @@ ________________________________________
 The implementation consists of the following stages:
 1.	Extract facial regions from the 121 videos in the RLT dataset. 
 2.	Generate 15-frame Groups of Pictures (GOPs). 
-3.	Extract and save:
-
+3.	Extract and save: 
 a.	Video frame sequences 
 b.	Emotion labels 
 c.	Micro-expression labels 
@@ -25,7 +24,6 @@ c.	Micro-expression labels
 8.	Configure the training parameters (epochs, batch size, training and validation sets). 
 9.	Train the proposed HME model. 
 10.	Save model checkpoints and training logs.
-
     
 Figure 1 shows the training and validation loss curve for the proposed architecture.
 
