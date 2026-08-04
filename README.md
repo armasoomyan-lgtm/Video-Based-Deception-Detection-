@@ -29,7 +29,7 @@ Figure 1 shows the training and validation loss curve for the proposed architect
 
 ________________________________________
 # Python Codes files for the proposed architecture:
-# Python Codes files for the proposed architecture:
+
 1.	Hybrid_ME_EmotionACC.py  (Training Hybrid Emodel Code:)
 •	Extract Face from 121 video dataset
 •	Extracting packking = 15 Of all_video_np,Emotion_label_np,micro_exp_labels
