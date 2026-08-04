@@ -14,9 +14,9 @@ The implementation consists of the following stages:
 1.	Extract facial regions from the 121 videos in the RLT dataset. 
 2.	Generate 15-frame Groups of Pictures (GOPs). 
 3.	Extract and save: 
-a.	Video frame sequences 
-b.	Emotion labels 
-c.	Micro-expression labels 
+a.Video frame sequences 
+b.Emotion labels 
+c.Micro-expression labels 
 4.	Generate homography-based feature labels. 
 5.	Build the proposed HME model. 
 6.	Load training and testing data. 
@@ -32,7 +32,7 @@ ________________________________________
 
 1.	Hybrid_ME_EmotionACC.py  (Training Hybrid Emodel Code:)
    
-  •	Extract Face from 121 video dataset
+  •	Extract Faces from 121 video dataset
   •	Extracting packking = 15 Of all_video_np,Emotion_label_np,micro_exp_labels
   •	Extracting homograph_label_H1_np , homograph_label_mesh_np
   •	defining  model 
