@@ -15,11 +15,9 @@ The implementation consists of the following stages:
 2.	Generate 15-frame Groups of Pictures (GOPs). 
 3.	Extract and save:
    
-   o	Video frame sequences 
-
-   o	Emotion labels 
-
-   o	Micro-expression labels 
+   o.	Video frame sequences 
+   o.	Emotion labels 
+   o.	Micro-expression labels 
 
 5.	Generate homography-based feature labels. 
 6.	Build the proposed HME model. 
